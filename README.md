@@ -31,7 +31,14 @@ This repository contains a Node.js application that automates transactions on th
    nano privateKeys.json
    ```
 
-   **Paste the following code and replace `private_key_1_here` with your wallet private keys (correct format):**
+   **Paste the following code and replace `private_key_1_here` with your wallet private key between "" symboles (correct format):**
+   ```json
+   [
+       "private_key_1_here"
+   ]
+   ```
+
+   **You can add more private keys if you want like this:**
    ```json
    [
        "private_key_1_here",
